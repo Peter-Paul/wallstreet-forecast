@@ -4,6 +4,8 @@ import pandas as pd
 from datetime import datetime 
 import numpy as np
 import requests
+
+alpha_vantage_api = 'QO234RMNT7YYSXZ3'
 headers = {
     'Content-Type': 'application/json'
 }
@@ -20,3 +22,18 @@ tesla = pdr.get_data_tiingo('TSLA', api_key=os.getenv(
 # apple = pdr.get_data_quandl('TSLA', api_key=os.getenv('QUANDL_API_KEY'), start= datetime(2018, 4, 10), end = datetime(2018, 4,11))
 for v in tesla.values[0:3]:
     data = v[0:1]
+
+import requests
+
+url = "https://alpha-vantage.p.rapidapi.com/query"
+
+querystring = {"symbol":"TSLA","function":"GLOBAL_QUOTE"}
+
+headers = {
+    'x-rapidapi-host': "alpha-vantage.p.rapidapi.com",
+    'x-rapidapi-key': "QO234RMNT7YYSXZ3"
+    }
+
+response = requests.request("GET", url, headers=headers, params=querystring)
+
+print(response.text)
