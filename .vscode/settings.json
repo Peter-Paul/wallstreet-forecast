@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\Admin\\.virtualenvs\\new-AxdLfkPT\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\Admin\\.virtualenvs\\new-AxdLfkPT\\Scripts\\python.exe",
+    "python.formatting.provider": "black"
 }

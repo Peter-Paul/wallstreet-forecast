@@ -27,7 +27,7 @@ import requests
 
 url = "https://alpha-vantage.p.rapidapi.com/query"
 
-querystring = {"symbol":"TSLA","function":"GLOBAL_QUOTE"}
+querystring = {"symbol":"SI-F","function":"GLOBAL_QUOTE", "interval":"1min"}
 
 headers = {
     'x-rapidapi-host': "alpha-vantage.p.rapidapi.com",

@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 django = "*"
 pandas-datareader = "*"
+pandas = "*"
+alpha-vantage = "*"
 
 [requires]
 python_version = "3.7"
