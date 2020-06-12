@@ -10,6 +10,7 @@ django = "*"
 pandas-datareader = "*"
 pandas = "*"
 alpha-vantage = "*"
+ipython = "*"
 
 [requires]
 python_version = "3.7"

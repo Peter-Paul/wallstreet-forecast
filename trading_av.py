@@ -1,3 +1,16 @@
+## Plan
+# This is an automated system with the following functionalities;
+# There should be a database having all user info, transaction info
+# Authenticates a given user to get access to the system
+# Asks a user what type of stock they want to analyse (Crypto, Shares, Commodities, Currencies etc)
+# Rank stocks and select best 10 performing stocks at that given time
+# Incase its a company, provide important financial information about that company
+# Further rank stocks in a given group and select at most 5 given they've passed ranking parameters
+# Ask the user whether it's a long term or short term analysis (timing)
+# If short, ask the user how long they plan to be active (Proposed to have it close 2 hours to close of the market)
+# Open a console / port where some chart with the required settings will run realtime
+# Provide transaction report at the end of each day whether if long or short term analysis
+
 import pandas as pd
 from alpha_vantage.timeseries import TimeSeries
 from alpha_vantage.techindicators import TechIndicators

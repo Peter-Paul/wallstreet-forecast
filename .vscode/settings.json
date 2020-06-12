@@ -1,4 +1,4 @@
 {
-    "python.pythonPath": "D:\\anaconda\\envs\\py3-tf2.0\\python.exe",
+    "python.pythonPath": "C:\\Users\\Admin\\.virtualenvs\\wallstreet-forecast-pAyVWxs9\\Scripts\\python.exe",
     "python.formatting.provider": "black"
 }
